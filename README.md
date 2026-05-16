@@ -1,8 +1,6 @@
 # Movie-Recommendation-
-AI-powered movie discovery app. Browse blockbusters, TV shows &amp; classics. Search by title, genre, or actor. Explore mood-based picks, genre galleries, and real-time IMDb insights. Add to watchlist &amp; find your next watch instantly. Built with real TMDB data.
-
+AI-powered movie discovery app. Browse blockbusters, TV shows & classics. Search by title, genre, or actor. Explore mood-based picks, genre galleries, and real-time IMDb insights. Add to watchlist & find your next watch instantly. Built with real TMDB data.
 # 🎬 MovieVibe — AI Movie Recommendation App
-
 > *Discover your next favorite film. Browse blockbusters, explore by mood, search by genre or actor, and get AI-powered recommendations — all in one cinematic experience.*
 
 ![MovieVibe](https://img.shields.io/badge/status-live-brightgreen?style=flat-square)
@@ -45,30 +43,24 @@ AI-powered movie discovery app. Browse blockbusters, TV shows &amp; classics. Se
 ## 🚀 Getting Started
 
 ### Prerequisites
-
 - Python 3.8+
 - pip
 
 ### 1. Clone the repository
-
 ```bash
 git clone https://github.com/your-username/movievibe.git
 cd movievibe
 ```
 
 ### 2. Install dependencies
-
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 3. Run the app
-
 ```bash
 streamlit run app.py
 ```
-
-Open [http://localhost:8501](http://localhost:8501) in your browser. No API key needed!
 
 ---
 
@@ -112,7 +104,6 @@ The built-in analytics dashboard includes:
 ## 🌐 Deployment
 
 ### Deploy on Streamlit Cloud (Free)
-
 1. Push your code to GitHub
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Connect your repo and set the main file as `app.py`
