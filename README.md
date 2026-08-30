@@ -10,7 +10,6 @@ Discover your next favorite film. Browse blockbusters, explore by mood, search b
 ![Status](https://img.shields.io/badge/status-live-brightgreen?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 
 </div>
 
@@ -28,7 +27,6 @@ Discover your next favorite film. Browse blockbusters, explore by mood, search b
 - [Cineverse Insights](#-cineverse-insights)
 - [Deployment](#-deployment)
 - [Contributing](#-contributing)
-- [License](#-license)
 
 ---
 
@@ -175,17 +173,3 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a pull request
-
----
-
-## 📄 License
-
-Distributed under the **MIT License**. © 2026 MovieVibe.
-
----
-
-<div align="center">
-
-**Built with ❤️ and a love for cinema — MovieVibe**
-
-</div>
