@@ -2,14 +2,16 @@
 
 # 🎬 MovieVibe
 
-**AI-Powered Movie & TV Discovery**
+### AI-Powered Movie & TV Discovery
 
 Discover your next favorite film. Browse blockbusters, explore by mood, search by genre or actor, and get AI-powered recommendations — all in one cinematic experience.
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Launch_App-FF4B4B?style=for-the-badge)](https://cgpgfgux5zhafhokaampwu.streamlit.app/)
+
 ![Status](https://img.shields.io/badge/status-live-brightgreen?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 </div>
 
@@ -25,8 +27,12 @@ Discover your next favorite film. Browse blockbusters, explore by mood, search b
 - [Project Structure](#️-project-structure)
 - [How to Use](#-how-to-use)
 - [Cineverse Insights](#-cineverse-insights)
-- [Deployment](#-deployment)
+- [Deployment](#️-deployment)
+- [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
+- [Support & Contact](#-support--contact)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
 
 ---
 
@@ -93,18 +99,18 @@ Discover your next favorite film. Browse blockbusters, explore by mood, search b
 - Python 3.8+
 - pip
 
-**1. Clone the repository**
+### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/movievibe.git
 cd movievibe
 ```
 
-**2. Install dependencies**
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-**3. Run the app**
+### 3. Run the app
 ```bash
 streamlit run app.py
 ```
@@ -115,15 +121,15 @@ The app will open at `http://localhost:8501` 🎬
 
 ## 🗂️ Project Structure
 
-```bash
+```
 movievibe/
-├── app.py                    # Main Streamlit app
-├── pages/                    # Multi-page sections
-│   ├── search.py             # Search page
-│   ├── tv.py                 # TV Shows page
-│   ├── movies.py             # Movies page
-│   └── category_explorer.py  # Genre gallery page
-├── data/                     # Local movie dataset
+├── app.py                     # Main Streamlit app
+├── pages/                     # Multi-page sections
+│   ├── search.py              # Search page
+│   ├── tv.py                  # TV Shows page
+│   ├── movies.py              # Movies page
+│   └── category_explorer.py   # Genre gallery page
+├── data/                      # Local movie dataset
 ├── components/                # Reusable UI components
 ├── utils/                     # Helper functions
 └── requirements.txt           # Python dependencies
@@ -164,6 +170,16 @@ The built-in analytics dashboard includes:
 
 ---
 
+## 🧭 Roadmap
+
+- [ ] User accounts & synced watchlists
+- [ ] Personalized recommendations via viewing history
+- [ ] Trailer previews embedded in movie cards
+- [ ] Dark/light theme toggle
+- [ ] Multi-language support
+
+---
+
 ## 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
@@ -173,3 +189,45 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a pull request
+
+---
+
+## 💬 Support & Contact
+
+Have a question, found a bug, or want to suggest a feature?
+
+| Channel | Link |
+|---|---|
+| 🐛 Report a Bug | [Open an Issue](https://github.com/your-username/movievibe/issues) |
+| 💡 Request a Feature | [Start a Discussion](https://github.com/your-username/movievibe/discussions) |
+| ⭐ Show Support | Star this repo if MovieVibe helped you find your next watch! |
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — free to use, modify, and distribute with attribution. See the `LICENSE` file for full terms.
+
+---
+
+## 🙌 Acknowledgments
+
+| Contribution | Powered By |
+|---|---|
+| 🎞️ Movie & TV Data | TMDB (The Movie Database) API |
+| 🖼️ Posters & Artwork | TMDB image library |
+| 📈 Data Visualization | Matplotlib, Plotly |
+| 🎨 UI & Styling | Streamlit, Custom CSS |
+| 🤖 Recommendations Logic | AI-assisted mood & genre matching |
+
+<div align="center">
+
+<br>
+
+<img src="https://img.shields.io/badge/Made_with-🎬_MovieVibe-0a0a12?style=for-the-badge&labelColor=1a1a1a&color=FF4B4B" alt="Made with MovieVibe"/>
+
+### *"Your next favorite film is one click away."*
+
+<sub>⭐ If this project helped you discover something great, consider giving it a star. ⭐</sub>
+
+</div>
