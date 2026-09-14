@@ -44,7 +44,8 @@ Browse blockbusters, explore by mood, search by genre or actor, and get AI-power
 | [🎥 Overview](#-overview) | [✨ Features](#-features) | [🛠️ Tech Stack](#️-tech-stack) |
 | [🚀 Getting Started](#-getting-started) | [🗂️ Project Structure](#️-project-structure) | [🎯 How to Use](#-how-to-use) |
 | [📊 Cineverse Insights](#-cineverse-insights) | [☁️ Deployment](#️-deployment) | [🧭 Roadmap](#-roadmap) |
-| [🤝 Contributing](#-contributing) | [📄 License](#-license) | [👤 Credits & Contact](#-credits--contact) |
+| [🌐 Live Demo](#-live-demo) | [🤝 Contributing](#-contributing) | [📄 License](#-license) |
+| [👤 Credits & Contact](#-credits--contact) | | |
 
 <br/>
 
@@ -219,6 +220,22 @@ The built-in analytics dashboard includes:
 2. 🌐 Go to [share.streamlit.io](https://share.streamlit.io)
 3. ➕ Connect your repo and set the main file as `app.py`
 4. ✅ Click **Deploy** — that's it, no extra setup needed!
+
+<br/>
+
+---
+
+## 🌐 Live Demo
+
+<div align="center">
+
+### 🌐 Live Demo
+
+[![🌐 Launch MovieVibe](https://img.shields.io/badge/🌐_LAUNCH_MOVIEVIBE-FF4B4B?style=for-the-badge&labelColor=1a1a1a)](https://cgpgfgux5zhafhokaampwu.streamlit.app/)
+
+<sub>🎞️ Runs live in your browser · No installation required</sub>
+
+</div>
 
 <br/>
 
