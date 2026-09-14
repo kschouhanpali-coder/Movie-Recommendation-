@@ -277,44 +277,31 @@ This project is licensed under the **MIT License** — free to use, modify, and 
 
 <div align="center">
 
-### 🎬 Made with precision — MovieVibe
+🎬
+
+### Built by [Your Name](https://github.com/your-username)
 
 *"Your next favorite film is one click away."*
 
-<br/>
-
-</div>
-
-**Have a question, found a bug, or want to suggest a feature?**
-
-<div align="center">
-
-[![Report a Bug](https://img.shields.io/badge/🐛_Report_a_Bug-Open_an_Issue-FF4B4B?style=for-the-badge&labelColor=1a1a1a)](https://github.com/your-username/movievibe/issues)
-[![Request a Feature](https://img.shields.io/badge/💡_Request_a_Feature-Start_a_Discussion-FF4B4B?style=for-the-badge&labelColor=1a1a1a)](https://github.com/your-username/movievibe/discussions)
-[![Show Support](https://img.shields.io/badge/⭐_Show_Support-Star_this_Repo-FF4B4B?style=for-the-badge&labelColor=1a1a1a)](https://github.com/your-username/movievibe)
-
 </div>
 
 <br/>
 
-**Built With**
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/TMDB-Movie_%26_TV_Data-01D277?style=flat-square&logo=themoviedatabase&logoColor=white" alt="TMDB Data"/>
-<img src="https://img.shields.io/badge/TMDB-Posters_%26_Artwork-01D277?style=flat-square&logo=themoviedatabase&logoColor=white" alt="TMDB Posters"/>
-<img src="https://img.shields.io/badge/Matplotlib_%2F_Plotly-Data_Visualization-11557C?style=flat-square&logo=python&logoColor=white" alt="Data Viz"/>
-<br/>
-<img src="https://img.shields.io/badge/Streamlit_%2F_CSS-UI_%26_Styling-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="UI & Styling"/>
-<img src="https://img.shields.io/badge/AI--Assisted-Mood_%26_Genre_Matching-2ea44f?style=flat-square" alt="Recommendations Logic"/>
-
-</div>
-
-<div align="center">
+> 📬 **Get in touch** — reach out on [GitHub](https://github.com/your-username), [X / Twitter](https://twitter.com/your-username), or via [email](mailto:you@example.com).
+>
+> 🐛 **Found a bug?** [Open an issue](https://github.com/your-username/movievibe/issues) and I'll take a look.
+>
+> 💡 **Have an idea?** [Start a discussion](https://github.com/your-username/movievibe/discussions) — I'd love to hear it.
+>
+> ⭐ **Enjoying MovieVibe?** A star on the repo goes a long way and helps others discover it too.
 
 <br/>
 
-<img src="https://img.shields.io/badge/Made_with-🎬_MovieVibe-1a1a1a?style=for-the-badge&labelColor=1a1a1a&color=FF4B4B" alt="Made with MovieVibe"/>
+MovieVibe is powered by the **TMDB API** for movie and TV data, built on **Streamlit**, visualized with **Matplotlib** and **Plotly**, and finished off with a bit of AI-assisted mood and genre matching.
+
+<div align="center">
+
+<br/>
 
 <sub>⭐ If this project helped you discover something great, consider giving it a star.</sub>
 
