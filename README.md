@@ -1,15 +1,27 @@
 <div align="center">
 
-# 🎬 MovieVibe
+# 📈 StockSphere 📈
 
-**Pick something worth watching.**
+### Explore Markets. Simulate Trades. Understand Trends.
 
-A single-page movie discovery app — browse trending titles, search the catalogue, get picks by mood, and explore a small analytics dashboard over the collection.
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![AI Assisted](https://img.shields.io/badge/AI--Assisted-Yes-00FFFF?style=for-the-badge)
 
-![No build step](https://img.shields.io/badge/build-none-D9A441?style=flat-square)
-![Vanilla JS](https://img.shields.io/badge/javascript-vanilla-B5384B?style=flat-square)
-![Single file](https://img.shields.io/badge/files-1%20html-4C8577?style=flat-square)
-![License MIT](https://img.shields.io/badge/license-MIT-8C5A1E?style=flat-square)
+An AI-powered, multi-module platform for exploring stock data, simulating portfolios, and visualizing market trends — through a dark-themed Command Hub.
+
+</div>
+
+---
+
+## 🚀 Live Demo
+
+<div align="center">
+
+### **[▶️ LAUNCH STOCKSPHERE - Live Demo](https://your-app-url.streamlit.app/)**
+
+*Click above to explore the platform directly in your browser!*
 
 </div>
 
@@ -17,83 +29,91 @@ A single-page movie discovery app — browse trending titles, search the catalog
 
 ## ✨ Features
 
-| | |
-|---|---|
-| 🏠 **Home** | A featured title of the day, plus "Trending picks" and "Newly added" rows |
-| 🔍 **Search** | Live filter across title and genre as you type |
-| 🎭 **Moods** | Five mood chips — Happy, Sad, Excited, Thoughtful, Romantic — each surfacing a matching shortlist |
-| 📊 **Insights** | Catalogue stats, a genre-mix doughnut chart, and a rating-distribution bar chart |
-| ⭐ **Watchlist** | Add titles from the hero or detail view; saved locally and persists on reload |
-| 🌗 **Theme toggle** | Switch between dark and light in one click |
+- 🛰️ **Mission Control** - Central hero dashboard with a live market overview
+- 🔎 **Stock Archive** - AI-powered explorer for individual tickers with price history and key metrics
+- 🧪 **Portfolio Lab** - Real-time simulator with interactive Capital / Allocation / Risk sliders
+- 🗺️ **Market Map** - Interactive visualization of sector performance and correlations
+- 📊 **Matrix View** - Side-by-side comparison cards for six tracked stocks or ETFs
+- 📉 **Trend Flow** - Visual breakdown of moving averages, volatility, and momentum
+- 🔢 **Live Chart Rendering** - Candlestick and line charts rendered in real time via Plotly/Chart.js
 
 ---
 
-## 🛠️ Tech stack
+## 🏁 Quick Start
 
-- **Plain HTML, CSS, and vanilla JavaScript** — no framework, no build tools
-- **[Chart.js](https://www.chartjs.org/)** (via CDN) for the Insights charts
-- **Google Fonts** — Bebas Neue for headlines, Manrope for body text
-- **`localStorage`** for watchlist persistence — data stays on your device only
+### Use Online
+No installation needed! [Launch the live demo](https://your-app-url.streamlit.app/)
 
----
+### Run Locally
 
-## 📁 Files
-
-```
-movievibe.html   the entire app — structure, styles, data, and logic in one file
-README.md        this file
-```
-
----
-
-## 🚀 Running it
-
-No install required.
-
-**Quickest** — double-click `movievibe.html`, or open it from your browser's File → Open menu.
-
-**Local server** (recommended if fonts or scripts don't load from a `file://` path):
+1. Clone the repository:
 ```bash
-cd path/to/project
-python3 -m http.server 8000
-# then open http://localhost:8000/movievibe.html
+git clone https://github.com/yourusername/stocksphere.git
+cd stocksphere
 ```
 
-**Deploy** — since it's one static file, it works as-is on GitHub Pages, Netlify, Vercel, or any static host.
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the app:
+```bash
+npm start
+```
+
+**Or run the Streamlit version:**
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+4. Open `http://localhost:8501` (Streamlit) or `http://localhost:3000` (React) in your browser
 
 ---
 
-## 🎞️ Customizing the catalogue
+## 🎯 How to Use
 
-All movie data lives in one array near the top of the `<script>` block:
-
-```js
-var MOVIES = [
-  {id:1, title:"...", year:1994, genre:"Drama", runtime:142, rating:9.3,
-   moods:["thoughtful","sad"], blurb:"..."},
-  ...
-];
-```
-
-To add a title, append an object with a unique `id`.
-
-- `genre` should match one of the keys in `GENRE_STYLE` — it drives the poster color and icon
-- `moods` should be a subset of the keys in `MOOD_META`
-
-Everything else — hero rotation, search, mood filtering, and the Insights charts — recomputes automatically from this array, so nothing else needs to change for ordinary edits.
-
-> Posters are generated, not photographed: each is a colored gradient (keyed by genre) with the title's first letter set in the display typeface — so there are no external image files or licensing concerns to manage.
+1. **Open the Command Hub** - navigate the sidebar to switch between modules
+2. **Explore Stocks** - use the Stock Archive's search to view price history, metrics, and fundamentals
+3. **Run the Simulator** - adjust Capital, Allocation, and Risk sliders in Portfolio Lab to see live projected returns
+4. **Compare Tickers** - view up to six stocks side-by-side in Matrix View
+5. **Study Trend Flow** - follow the layered chart to understand moving averages and volatility
 
 ---
 
-## 📝 Notes
+## 🗂️ Module Navigation
 
-- Everything runs client-side — no server, database, or API key involved
-- The watchlist is stored per-browser via `localStorage`, so it won't sync across devices and clears if you clear browser data
-- Chart colors and fonts follow the app's CSS custom properties, so they adapt automatically when you switch the light/dark theme
+| Module | Description |
+|--------|-------------|
+| **Mission Control** | Home / hero dashboard with market snapshot |
+| **Stock Archive** | Ticker explorer with price history, fundamentals, and news |
+| **Portfolio Lab** | Live portfolio and allocation simulator |
+| **Market Map** | Sector performance & correlation visualization |
+| **Matrix View** | Side-by-side comparison of tracked stocks |
+| **Trend Flow** | Moving averages, volatility, and momentum analytics |
+
+---
+
+## 💻 Technologies Used
+
+- **Frontend:** HTML5, CSS3, JavaScript / React
+- **Charts:** Plotly.js / Chart.js
+- **Market Data:** Your data provider of choice (e.g. Yahoo Finance, Alpha Vantage)
+- **Hosting:** Streamlit Cloud
+
+---
+
+## 📝 License
+
+MIT License - Free to use and modify
+
+---
 
 <div align="center">
 
-Made for movie nights. 🍿
+**[Live Demo](https://your-app-url.streamlit.app/) | [GitHub](https://github.com/yourusername/stocksphere) | [Report Issues](https://github.com/yourusername/stocksphere/issues)**
+
+*Explore Visually. Simulate Live. Invest Deeply.* 📈
 
 </div>
